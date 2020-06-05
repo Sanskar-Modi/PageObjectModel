@@ -44,9 +44,9 @@ public class TestBase {
 			System.setProperty("webdriver.chrome.driver", "C:/Users/Sanskar Modi/Downloads/chromedriver_win32/chromedriver.exe");	
 			driver = new ChromeDriver(); 
 		}
-		//else if(browserName.equals("FF")){
-		//	System.setProperty("webdriver.gecko.driver", "/Users/naveenkhunteta/Documents/SeleniumServer/geckodriver");	
-		//	driver = new FirefoxDriver(); 
+		else if(browserName.equals("FF")){
+			System.setProperty("webdriver.gecko.driver", "/Users/naveenkhunteta/Documents/SeleniumServer/geckodriver");	
+			driver = new FirefoxDriver(); 
 		}
 		
 		
